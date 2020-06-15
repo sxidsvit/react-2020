@@ -16,8 +16,6 @@ function useInputValue(defaultValue = '') {
 
 function AddTodo({ onCreate }) {
   const input = useInputValue('')
-  const test = { ...input }
-  console.log('AddTodo test: ', test);
 
   function submitHandler(event) {
     event.preventDefault();
