@@ -19,8 +19,8 @@ code {
 }
 
 .rm {
-  background: red;
-  border-radius: 25px;
+  background: rgb(194, 119, 119);
+  border-radius: 5px;
   color: #fff;
   width: 40px;
   border: none;

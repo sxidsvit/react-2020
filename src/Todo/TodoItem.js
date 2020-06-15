@@ -9,7 +9,7 @@ const styles = {
     alignItems: 'center',
     padding: '.5rem 1rem',
     border: '1px solid #ccc',
-    borderRadius: '4px',
+    borderRadius: '5px',
     marginBottom: '.5rem'
   },
   input: {
