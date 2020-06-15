@@ -32,7 +32,7 @@ function AddTodo({ onCreate }) {
         justifyContent: 'center',
       }}
       onSubmit={submitHandler}>
-      <input {...input.bind} />
+      <input {...input.bind} style={{ width: "100%" }} />
       <button type="submit">Add todo</button>
     </form >
   )
