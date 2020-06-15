@@ -9,11 +9,19 @@ export default class Modal extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <button className='modal-button' onClick={
-          () => this.setState({ isOpen: true })
-        }>
-          Open modal
-        </button>
+        <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          marginBottom: '1rem'
+        }}>
+          <button
+            className='modal-button'
+            onClick={
+              () => this.setState({ isOpen: true })
+            }>
+            Open modal
+          </button>
+        </div>
         {this.state.isOpen &&
           <div className='modal'>
             <div className='modal-body'>

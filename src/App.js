@@ -53,7 +53,8 @@ function App() {
   return (
     <Context.Provider value={{ removeTodo: removeTodo }}>
       <div className="wrapper">
-        <h1>React. Todo List</h1>
+        <h1 style={{ textAlign: 'center', marginBottom: '0rem' }} > Todo List </h1>
+        <h6 style={{ textAlign: 'center', marginTop: '0rem' }} > created on React 2020</h6>
         <React.Suspense fallback={<p>Loading ...</p>}>
           <Modal></Modal>
           <AddTodo onCreate={addTodo} />
@@ -65,7 +66,7 @@ function App() {
           <p>No todos!</p>
         )}
       </div>
-    </Context.Provider>
+    </Context.Provider >
   )
 }
 

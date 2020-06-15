@@ -30,6 +30,13 @@ code {
   text-decoration: line-through;
 }
 
+button[type='submit'] {
+  background-color: #dfc;
+  padding: .5rem 2rem;
+  border-radius: 5px;
+
+}
+
 /* loader */
 
 .lds-hourglass {
