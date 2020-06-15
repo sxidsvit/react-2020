@@ -3,7 +3,6 @@ import Todolist from './Todo/TodoList'
 import Context from './context'
 import Loader from './Loader'
 import Modal from './Modal/modal'
-import './App.css'
 
 const AddTodo = React.lazy(() =>
   new Promise(resolve => {
