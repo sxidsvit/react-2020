@@ -34,7 +34,7 @@ function AddTodo({ onCreate }) {
       onSubmit={submitHandler}>
       <input {...input.bind} style={{ width: "100%" }} />
       <button type="submit">Add todo</button>
-    </form >
+    </form>
   )
 }
 

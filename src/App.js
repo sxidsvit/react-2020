@@ -14,7 +14,7 @@ const AddTodo = React.lazy(() =>
 
 function App() {
   const [todos, setTodos] = useState([])
-  const [loading, setLoading] = useState([])
+  const [loading, setLoading] = useState([true])
 
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/todos?_limit=5')
@@ -65,7 +65,7 @@ function App() {
           <p>No todos!</p>
         )}
       </div>
-    </Context.Provider >
+    </Context.Provider>
   )
 }
 
